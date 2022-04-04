@@ -26,7 +26,8 @@ export class BubbleSort implements Strategy {
     console.log('['+data+']')
     return data;
   }
-}
+
+} //Fin clase
 
 /**
  * Salida por pantalla
