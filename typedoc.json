@@ -1,6 +1,8 @@
 {
     "entryPoints": [
-        "./src/ejercicio1.ts"
+        "./src/solver.ts",
+        "./src/strategy.ts",
+        "./src/bubblesort.ts"
     ],
     "out": "./docs"
 }

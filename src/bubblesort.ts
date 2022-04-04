@@ -11,6 +11,22 @@ export class BubbleSort implements Strategy {
    * @param data array de números a ordenar
    */
   public execute(data: number[]) {
-    console.log(`Se aplica el algoritmo BubbleSort ${data}`);
+    console.log(`Se aplica el algoritmo BubbleSort al array [${data}]`);
+    let array_aux = data.slice(); 
+    for(let i = 0; i < data.length; i++) {
+      for(let j = 0; j < data.length - 1; j++) {
+        if(data[j] > data[j + 1]) {
+          let swap = data[j];
+          data[j] = data[j + 1];
+          data[j + 1] = swap;
+        }
+      }
+    }
+    console.log('['+data+']')
+    return data;
   }
 }
+
+const data: number[] = [5,4,6,7,2,1,3]
+const bubblesort = new BubbleSort();
+bubblesort.execute(data)
