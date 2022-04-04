@@ -6,7 +6,11 @@ import { Strategy } from "./strategy";
  * @class BubbleSort que implementa la interfaz Strategy
  */
 export class BubbleSort implements Strategy {
-    execute(data: number[]) {
-      console.log(`Se aplica el algoritmo BubbleSort ${data}`);
-    }
+  /**
+   * Método public execute que permite iniciar la ejecución de una estrategia.
+   * @param data array de números a ordenar
+   */
+  public execute(data: number[]) {
+    console.log(`Se aplica el algoritmo BubbleSort ${data}`);
+  }
 }
