@@ -1,3 +1,5 @@
+import { BubbleSort } from "./bubblesort";
+import { MergeSort } from "./mergesort";
 import { Strategy } from "./strategy";
 
 /**
@@ -27,4 +29,17 @@ export class Solver {
   logic() {
     this.strategy.execute(this.data);
   }
-}
+
+} //Fin clase
+
+/**
+ * Salida por pantalla
+ */
+const data: number[] = [5,4,6,7,2,1,3];
+const mySolverBubble = new Solver(data, new BubbleSort());
+const mySolverMerge = new Solver(data, new MergeSort());
+mySolverBubble.setStrategy(new BubbleSort());
+mySolverBubble.logic();
+
+mySolverMerge.setStrategy(new MergeSort());
+mySolverMerge.logic();
