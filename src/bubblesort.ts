@@ -16,6 +16,7 @@ export class BubbleSort implements Strategy {
     for(let i = 0; i < data.length; i++) {
       for(let j = 0; j < data.length - 1; j++) {
         if(data[j] > data[j + 1]) {
+          // Intercambio para ordenar
           let swap = data[j];
           data[j] = data[j + 1];
           data[j + 1] = swap;
@@ -27,6 +28,9 @@ export class BubbleSort implements Strategy {
   }
 }
 
+/**
+ * Salida por pantalla
+ */
 const data: number[] = [5,4,6,7,2,1,3]
 const bubblesort = new BubbleSort();
 bubblesort.execute(data)
