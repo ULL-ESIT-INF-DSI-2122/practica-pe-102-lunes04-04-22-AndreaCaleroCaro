@@ -1,8 +1,11 @@
 import { Strategy } from "./strategy";
 
+/**
+ * EJERCICIO PE 102. Lunes 04 de abril 2022
+ * 1) Creación @class Solver, hemos sido capaces de identificar diferentes algoritmos.
+ */
 export class Solver {
   /**
-   * 1) Creación @class Solver, hemos sido capaces de identificar diferentes algoritmos.
    * @param data array de números 
    * @param strategy implementa la interfaz Strategy
    */
@@ -17,6 +20,9 @@ export class Solver {
     this.strategy = strategy;
   }
 
+  /**
+   * Getter de la estrategia a ejecutar con el array de números
+   */
   logic() {
     this.strategy.execute(this.data);
   }
