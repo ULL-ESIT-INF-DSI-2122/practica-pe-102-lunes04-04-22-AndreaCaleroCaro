@@ -5,8 +5,6 @@ import {Strategy} from '../src/strategy';
 
 
 describe('Solver', () => {
-  it('logic() añade el patrón', () => {
-    expect(logic()).to.be.equal(undefined);
-  });
+  
 });
 

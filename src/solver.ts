@@ -16,8 +16,8 @@ export class Solver {
   public setStrategy(strategy: Strategy) {
     this.strategy = strategy;
   }
-/*
+
   logic() {
     this.strategy.execute(this.data);
-  }*/
+  }
 }
