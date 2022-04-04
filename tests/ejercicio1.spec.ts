@@ -9,3 +9,4 @@ describe('Solver', () => {
     expect(setStrategy([5,3,4,1,2,7,6])).to.be.equal(undefined);
   });
 });
+
