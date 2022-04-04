@@ -12,7 +12,7 @@
 
 ### Integración continua tests y coveralls
 [![Tests](https://github.com/ULL-ESIT-INF-DSI-2122/practica-pe-102-lunes04-04-22-AndreaCaleroCaro/actions/workflows/node.js.yml/badge.svg)](https://github.com/ULL-ESIT-INF-DSI-2122/practica-pe-102-lunes04-04-22-AndreaCaleroCaro/actions/workflows/node.js.yml)
-[![Coveralls](https://github.com/ULL-ESIT-INF-DSI-2122/practica-pe-102-lunes04-04-22-AndreaCaleroCaro/actions/workflows/node.js.yml/badge.svg)](https://github.com/ULL-ESIT-INF-DSI-2122/practica-pe-102-lunes04-04-22-AndreaCaleroCaro/actions/workflows/node.js.yml)
+[![Coveralls](https://github.com/ULL-ESIT-INF-DSI-2122/practica-pe-102-lunes04-04-22-AndreaCaleroCaro/actions/workflows/node.js.yml/badge.svg)](https://github.com/ULL-ESIT-INF-DSI-2122/practica-pe-102-lunes04-04-22-AndreaCaleroCaro/actions/workflows/nodecoveralls.js.yml)
 
 
 ### Sonarcloud 
