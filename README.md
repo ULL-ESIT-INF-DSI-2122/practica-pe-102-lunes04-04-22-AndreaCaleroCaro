@@ -9,6 +9,7 @@
 ### Coveralls
 [![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2122/practica-pe-102-lunes04-04-22-AndreaCaleroCaro/badge.svg?branch=master)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2122/practica-pe-102-lunes04-04-22-AndreaCaleroCaro?branch=master)
 
+
 ### Integración continua test
 [![Tests](https://github.com/ULL-ESIT-INF-DSI-2122/practica-pe-102-lunes04-04-22-AndreaCaleroCaro/actions/workflows/node.js.yml/badge.svg)](https://github.com/ULL-ESIT-INF-DSI-2122/practica-pe-102-lunes04-04-22-AndreaCaleroCaro/actions/workflows/node.js.yml)
 
