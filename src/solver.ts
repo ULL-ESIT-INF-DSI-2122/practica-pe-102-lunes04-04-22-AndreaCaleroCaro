@@ -15,6 +15,7 @@ export class Solver {
   /**
    * Setter que indica la estrategia de algor
    * @param strategy Current strategy applied
+   * 4) añadido un setter setStrategy a Solver que nos permite, en tiempo de ejecución, modificar la estrategia aplicada
    */
   public setStrategy(strategy: Strategy) {
     this.strategy = strategy;
